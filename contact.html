@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Explore Ethiopia - Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style type="text/css">
+      .hero-card,
+      .form {
+        width: 50%;
+      }
+    </style>
+  </head>
+
+  <body class="contact">
+    <header class="site-header">
+      <div class="container header-inner">
+        <div class="brand">Explore Ethiopia</div>
+        <nav class="nav" aria-label="Main navigation">
+          <a href="index.html">Home</a>
+          <a href="destination.html">Destination</a>
+          <a href="culture.html">Culture</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main class="container">
+      <section class="hero">
+        <div class="hero-card">
+          <h1 class="hero-title">Contact Us</h1>
+          <p class="hero-sub">
+            Tell us your travel dates and interests. We'll recommend the best
+            tour route for you.
+          </p>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="form">
+          <form action="#" method="post">
+            <div class="field">
+              <label for="name">Full Name</label>
+              <input
+                id="name"
+                name="name"
+                type="text"
+                placeholder="your full name"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+
+            <div class="field">
+              <label for="tour">Tour Preference</label>
+              <select id="tour" name="tour" required>
+                <option value="" selected disabled>Select a tour</option>
+                <option>North Historical Circuit</option>
+                <option>Omo Valley Culture Route</option>
+                <option>Addis Ababa</option>
+                <option>Harar</option>
+                <option>Lalibela</option>
+                <option>Aksum</option>
+                <option>Gheralta, Tigray</option>
+                <option>Danakil Depression</option>
+                <option>Custom Tour</option>
+              </select>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                name="message"
+                placeholder="Enter Your Message Here..."
+                required
+              ></textarea>
+            </div>
+
+            <div class="btn-row">
+              <button class="btn btn-primary" type="submit">
+                Send Request
+              </button>
+              <a class="btn btn-ghost" href="destination.html"
+                >Browse Destinations</a
+              >
+            </div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">&copy; 2026</footer>
+  </body>
+</html>
